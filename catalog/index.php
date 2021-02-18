@@ -35,7 +35,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 		"USE_FILTER" => "Y",
 		"FILTER_NAME" => "",
 		"FILTER_VIEW_MODE" => "VERTICAL",
-		"USE_COMPARE" => "N",
+		"USE_COMPARE" => "Y",
 		"PRICE_CODE" => array(
 			0 => "BASE",
 		),
@@ -285,6 +285,22 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 		"MESSAGE_404" => "",
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
 		"DETAIL_SET_VIEWED_IN_COMPONENT" => "N",
+		"COMPARE_NAME" => "CATALOG_COMPARE_LIST",
+		"COMPARE_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"COMPARE_OFFERS_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"COMPARE_ELEMENT_SORT_FIELD" => "sort",
+		"COMPARE_ELEMENT_SORT_ORDER" => "asc",
+		"COMPARE_POSITION_FIXED" => "Y",
+		"COMPARE_POSITION" => "top left",
+		"DETAIL_ADD_TO_BASKET_ACTION_PRIMARY" => array(
+			0 => "BUY",
+		),
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",
 			"section" => "#SECTION_CODE#/",
